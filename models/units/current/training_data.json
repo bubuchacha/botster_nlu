@@ -1,0 +1,1645 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "feet", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "now into feet"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 19, 
+            "value": "kilometers", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "now into kilometers"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "in", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 3, 
+            "end": 9, 
+            "value": "meters", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "in meters please"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "in", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 7, 
+            "end": 12, 
+            "value": "grams", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "and in grams"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 6, 
+            "value": "90", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "meters", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "and 90 meters then"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "about", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 11, 
+            "end": 12, 
+            "value": "4", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 13, 
+            "end": 15, 
+            "value": "km", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "what about 4 km"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 5, 
+            "value": "4", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 6, 
+            "end": 10, 
+            "value": "tbsp", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "and 4 tbsp"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "lbs", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "and to lbs"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 10, 
+            "value": "meters", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "and meters"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 17, 
+            "value": "metres", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert - context:units", 
+        "text": "what about metres"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "feet", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 23, 
+            "end": 32, 
+            "value": "kilometer", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many feet are in a kilometer"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 22, 
+            "value": "square feet", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 26, 
+            "end": 29, 
+            "value": "500", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 30, 
+            "end": 35, 
+            "value": "acres", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "what's the square feet of 500 acres"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "50", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 10, 
+            "end": 12, 
+            "value": "kg", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 18, 
+            "end": 24, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "change 50 kg into pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 1, 
+            "value": "1", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 2, 
+            "end": 7, 
+            "value": "litre", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 20, 
+            "end": 22, 
+            "value": "ml", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "1 litre how much in ml"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 19, 
+            "value": "tablespoons", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 23, 
+            "end": 32, 
+            "value": "teaspoons", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert tablespoons to teaspoons"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "lbs", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 7, 
+            "end": 12, 
+            "value": "kilos", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "lbs in kilos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "679", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "sqft", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "sq m", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "679 sqft in sq m"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 1, 
+            "value": "1", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 2, 
+            "end": 4, 
+            "value": "oz", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 8, 
+            "end": 12, 
+            "value": "gram", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "1 oz in gram"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "liters", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 32, 
+            "end": 33, 
+            "value": "1", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 34, 
+            "end": 40, 
+            "value": "gallon", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many liters of water are in 1 gallon of water"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 20, 
+            "value": "centimeters", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "inch", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many centimeters per inch"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 18, 
+            "value": "kilometers", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 24, 
+            "end": 29, 
+            "value": "miles", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert kilometers into miles"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 11, 
+            "value": "100", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 12, 
+            "end": 22, 
+            "value": "kilometers", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 26, 
+            "end": 31, 
+            "value": "miles", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 100 kilometers to miles"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "20", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 3, 
+            "end": 5, 
+            "value": "kg", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "20 kg to pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "inches", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 29, 
+            "end": 31, 
+            "value": "10", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 32, 
+            "end": 36, 
+            "value": "feet", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many inches are there in 10 feet"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 21, 
+            "value": "miles", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 25, 
+            "end": 35, 
+            "value": "kilometres", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "can you convert miles in kilometres"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 17, 
+            "value": "2", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 18, 
+            "end": 23, 
+            "value": "miles", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 27, 
+            "end": 37, 
+            "value": "kilometers", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "can you convert 2 miles to kilometers"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 18, 
+            "value": "miles", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert into miles"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 11, 
+            "value": "500", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 12, 
+            "end": 22, 
+            "value": "kilometers", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 26, 
+            "end": 31, 
+            "value": "miles", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 500 kilometers to miles"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "inches", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 16, 
+            "end": 19, 
+            "value": "are", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 29, 
+            "end": 32, 
+            "value": "six", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 33, 
+            "end": 37, 
+            "value": "feet", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many inches are there in six feet"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "inches", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 16, 
+            "end": 19, 
+            "value": "are", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 25, 
+            "end": 36, 
+            "value": "square foot", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many inches are in a square foot"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 9, 
+            "value": "4", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 10, 
+            "end": 20, 
+            "value": "kilometers", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 26, 
+            "end": 31, 
+            "value": "miles", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 4 kilometers into miles"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 14, 
+            "value": "830736", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 15, 
+            "end": 20, 
+            "value": "miles", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 24, 
+            "end": 35, 
+            "value": "centimeters", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "what is 830736 miles in centimeters"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 8, 
+            "value": "3", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "meters", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 19, 
+            "end": 29, 
+            "value": "kilometers", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "what's 3 meters in kilometers"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 5, 
+            "value": "90", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 14, 
+            "end": 24, 
+            "value": "Fahrenheit", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "is 90 degrees Fahrenheit incredibly hot"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "feet", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 14, 
+            "end": 17, 
+            "value": "are", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 21, 
+            "end": 24, 
+            "value": "one", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "mile", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many feet are in one mile"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "inches", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 21, 
+            "end": 25, 
+            "value": "mile", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many inches in a mile"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "kilograms into pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "convert", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 8, 
+            "end": 9, 
+            "value": "4", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 10, 
+            "end": 19, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 4 kilograms to pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "10", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 3, 
+            "end": 12, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 24, 
+            "end": 28, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 29, 
+            "end": 35, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "10 kilograms equals how many pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 14, 
+            "value": "90", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 28, 
+            "end": 34, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how much is 90 kilograms in pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 19, 
+            "end": 21, 
+            "value": "79", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 22, 
+            "end": 31, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many pounds is 79 kilograms"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "kilograms", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 28, 
+            "end": 33, 
+            "value": "pound", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many kilograms are in a pound"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 2, 
+            "value": "16", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 3, 
+            "end": 12, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 18, 
+            "end": 24, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "16 kilograms into pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 19, 
+            "end": 21, 
+            "value": "16", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 22, 
+            "end": 31, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many pounds is 16 kilograms"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "23", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 11, 
+            "end": 20, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 24, 
+            "end": 30, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 23 kilograms to pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 22, 
+            "end": 25, 
+            "value": "are", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 29, 
+            "end": 31, 
+            "value": "23", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 32, 
+            "end": 41, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many pounds there are in 23 kilograms"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 11, 
+            "value": "176", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 12, 
+            "end": 18, 
+            "value": "pounds", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 22, 
+            "end": 31, 
+            "value": "kilograms", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 176 pounds to kilograms"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 13, 
+            "value": "10060", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 14, 
+            "end": 23, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 27, 
+            "end": 33, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 10060 kilograms to pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "330 000", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 8, 
+            "end": 13, 
+            "value": "bytes", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 30, 
+            "end": 39, 
+            "value": "gigabytes", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "330 000 bytes equals how many gigabytes"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 20, 
+            "value": "square feet", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "acre", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many square feet is in an acre"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 11, 
+            "value": "600", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 12, 
+            "end": 17, 
+            "value": "acres", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 23, 
+            "end": 34, 
+            "value": "square feet", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 600 acres into square feet"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 20, 
+            "value": "square feet", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 24, 
+            "end": 27, 
+            "value": "600", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 28, 
+            "end": 33, 
+            "value": "acres", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many square feet is 600 acres"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 9, 
+            "value": "1", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 10, 
+            "end": 13, 
+            "value": "bit", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 19, 
+            "end": 24, 
+            "value": "bytes", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 1 bit into bytes"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "150", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 11, 
+            "end": 16, 
+            "value": "miles", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 20, 
+            "end": 30, 
+            "value": "kilometers", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "what s 150 miles in kilometers"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 1, 
+            "value": "5", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 2, 
+            "end": 6, 
+            "value": "feet", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 14, 
+            "end": 18, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 19, 
+            "end": 30, 
+            "value": "centimeters", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "5 feet is how many centimeters"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "many", 
+            "entity": "@sys.ignore"
+          }, 
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "feet", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 19, 
+            "end": 23, 
+            "value": "mile", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many feet in a mile"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "ounces", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 19, 
+            "end": 20, 
+            "value": "3", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 21, 
+            "end": 28, 
+            "value": "gallons", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many ounces in 3 gallons"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "feet", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 19, 
+            "end": 28, 
+            "value": "kilometer", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many feet in a kilometer"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 10, 
+            "value": "2", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 11, 
+            "end": 15, 
+            "value": "feet", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 19, 
+            "end": 24, 
+            "value": "miles", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "what are 2 feet in miles"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "23", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 11, 
+            "end": 16, 
+            "value": "years", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 20, 
+            "end": 27, 
+            "value": "seconds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 23 years to seconds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 22, 
+            "value": "Fahrenheit", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 26, 
+            "end": 32, 
+            "value": "Kelvin", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "change from Fahrenheit to Kelvin"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "ounces", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 25, 
+            "end": 28, 
+            "value": "cup", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many ounces are in a cup"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 10, 
+            "value": "26", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 11, 
+            "end": 26, 
+            "value": "degrees Celsius", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 30, 
+            "end": 40, 
+            "value": "Fahrenheit", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "convert 26 degrees Celsius to Fahrenheit"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "100 144", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 8, 
+            "end": 17, 
+            "value": "kilograms", 
+            "entity": "unit-from"
+          }, 
+          {
+            "start": 21, 
+            "end": 27, 
+            "value": "pounds", 
+            "entity": "unit-to"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "100 144 kilograms to pounds"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 14, 
+            "value": "hours", 
+            "entity": "unit-to"
+          }, 
+          {
+            "start": 27, 
+            "end": 28, 
+            "value": "1", 
+            "entity": "amount"
+          }, 
+          {
+            "start": 29, 
+            "end": 33, 
+            "value": "week", 
+            "entity": "unit-from"
+          }
+        ], 
+        "intent": "units.convert", 
+        "text": "how many hours there is in 1 week"
+      }
+    ], 
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "wks", 
+          "wk", 
+          "weeks"
+        ], 
+        "value": "week"
+      }, 
+      {
+        "synonyms": [
+          "leap years"
+        ], 
+        "value": "leap year"
+      }, 
+      {
+        "synonyms": [
+          "degrees centigrade", 
+          "Celsius degree", 
+          "degrees Celsius", 
+          "degree Celsius", 
+          "degC", 
+          "deg C", 
+          "degree centigrade", 
+          "degre Celsius", 
+          "Celsius degrees", 
+          "Celsius", 
+          "centigrade"
+        ], 
+        "value": "C"
+      }, 
+      {
+        "synonyms": [
+          "sidereal days"
+        ], 
+        "value": "sidereal day"
+      }, 
+      {
+        "synonyms": [
+          "fortnights"
+        ], 
+        "value": "fortnight"
+      }, 
+      {
+        "synonyms": [
+          "degrees Fahrenheit", 
+          "Fahrenheit", 
+          "Fahrenheit degrees", 
+          "degree Fahrenheit", 
+          "degF", 
+          "Fahrenheit degree", 
+          "deg F", 
+          "degre Fahrenheit"
+        ], 
+        "value": "F"
+      }, 
+      {
+        "synonyms": [
+          "hours", 
+          "hour"
+        ], 
+        "value": "h"
+      }, 
+      {
+        "synonyms": [
+          "Kelvin", 
+          "degre Kelvin", 
+          "deg K", 
+          "Kelvins", 
+          "degK", 
+          "degrees Kelvin", 
+          "degree Kelvin", 
+          "degree Kelvins", 
+          "degrees Kelvins"
+        ], 
+        "value": "K"
+      }, 
+      {
+        "synonyms": [
+          "centuries"
+        ], 
+        "value": "century"
+      }, 
+      {
+        "synonyms": [
+          "milleniums"
+        ], 
+        "value": "millenium"
+      }, 
+      {
+        "synonyms": [
+          "months", 
+          "mo"
+        ], 
+        "value": "month"
+      }, 
+      {
+        "synonyms": [
+          "degre Rankine", 
+          "Ra", 
+          "Rankine", 
+          "degree Rankine", 
+          "deg R", 
+          "degrees Rankine", 
+          "degR", 
+          "Rankine degrees", 
+          "Rankine degree"
+        ], 
+        "value": "R"
+      }, 
+      {
+        "synonyms": [
+          "second", 
+          "seconds"
+        ], 
+        "value": "sec"
+      }, 
+      {
+        "synonyms": [
+          "millisecond", 
+          "milliseconds", 
+          "millisec"
+        ], 
+        "value": "ms"
+      }, 
+      {
+        "synonyms": [
+          "years"
+        ], 
+        "value": "year"
+      }, 
+      {
+        "synonyms": [
+          "sidereal years"
+        ], 
+        "value": "sidereal year"
+      }, 
+      {
+        "synonyms": [
+          "days"
+        ], 
+        "value": "day"
+      }, 
+      {
+        "synonyms": [
+          "decades"
+        ], 
+        "value": "decade"
+      }
+    ], 
+    "regex_features": []
+  }
+}

@@ -1,0 +1,28 @@
+intents:
+  - greet
+  - goodbye
+  - mood_happy
+  - mood_sad
+
+templates:
+  utter_greet:
+    - "Hey! How are you?"
+    - "Yo! What's up?"
+
+  utter_happy:
+    - "I am happy too!"
+    
+
+  utter_sad:
+    - "I am sad too :("
+  
+  utter_goodbye:
+    - "Goodbye!"
+    - "Bye-bye"
+    - "Bye"
+
+actions:
+  - utter_greet
+  - utter_happy
+  - utter_sad
+  - utter_goodbye

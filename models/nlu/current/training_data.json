@@ -1,0 +1,248 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi there!", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good morning", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good afternoon", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "ciao!", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "byebye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you soon", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "later!", 
+        "intent": "goodbye"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 17, 
+            "value": "Patric", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "my name is Patric "
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Diogy", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "i am Diogy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 15, 
+            "value": "John", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "my name is John"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 17, 
+            "value": "Robert", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "my name is Robert"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 16, 
+            "value": "Joe", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "they call me Joe"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 25, 
+            "value": "George Clooney", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "my name is George Clooney"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 26, 
+            "value": "John Doe Rivers", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "my name is John Doe Rivers"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 23, 
+            "value": "Troy Montero", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "my name is Troy Montero"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 27, 
+            "value": "Karrie Simmons", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "they call me Karrie Simmons"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 10, 
+            "value": "Bugs Bunny", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "Bugs Bunny"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "Jemar", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "Jemar"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 8, 
+            "value": "Samantha", 
+            "entity": "person"
+          }
+        ], 
+        "intent": "give_name", 
+        "text": "Samantha"
+      }, 
+      {
+        "text": "yes", 
+        "intent": "mood_affirm"
+      }, 
+      {
+        "text": "yup", 
+        "intent": "mood_affirm"
+      }, 
+      {
+        "text": "that's right", 
+        "intent": "mood_affirm"
+      }, 
+      {
+        "text": "correct", 
+        "intent": "mood_affirm"
+      }, 
+      {
+        "text": "yes, correct", 
+        "intent": "mood_affirm"
+      }, 
+      {
+        "text": "you are dumb", 
+        "intent": "rude_remark"
+      }, 
+      {
+        "text": "are you dumb?", 
+        "intent": "rude_remark"
+      }, 
+      {
+        "text": "you don't know anything", 
+        "intent": "rude_remark"
+      }, 
+      {
+        "text": "you're dumb", 
+        "intent": "rude_remark"
+      }, 
+      {
+        "text": "crazy", 
+        "intent": "rude_remark"
+      }, 
+      {
+        "text": "you're crazy", 
+        "intent": "rude_remark"
+      }, 
+      {
+        "text": "are you human?", 
+        "intent": "rude_remark"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}

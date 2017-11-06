@@ -1,0 +1,6 @@
+{
+    "pipeline": "spacy_sklearn",
+    "path" : "./models",
+    "project": "units",
+    "data" : "/srv/samba/anonymous/units_data.json"
+}  
